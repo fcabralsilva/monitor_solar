@@ -7,7 +7,7 @@ String VERSAO = "001 - 15/10/2019";
 #include <WebServer.h>
 #include <WiFiManager.h>
 
-const int SENSOR_TENSAO = 34; //PINO ANALÓGICO EM QUE O SENSOR ESTÁ CONECTADO
+const int SENSOR_TENSAO = 34; //PINO ANALÓGICO EM QUE O SENSOR ESTÁ CONECTADO.
 const char CABECALHO_IN[] ="<!DOCTYPE HTML><html><head><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"><link rel=\"stylesheet\" href=\"https://use.fontawesome.com/releases/v5.7.2/css/all.css\" integrity=\"sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr\" crossorigin=\"anonymous\">";
 const char STYLE[] ="<style>html {font-family: Arial;display: inline-block;margin: 0px auto;text-align: center;}h2 { font-size: 3.0rem; }p { font-size: 3.0rem; }.units { font-size: 1.2rem; }.ds-labels{font-size: 1.5rem;vertical-align:middle;padding-bottom: 15px;}</style>";
 const char CABECALHO_OUT[] ="</head><body>";
