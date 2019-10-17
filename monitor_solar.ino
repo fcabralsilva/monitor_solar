@@ -12,7 +12,7 @@ const char CABECALHO_IN[] ="<!DOCTYPE HTML><html><head><meta name=\"viewport\" c
 const char STYLE[] ="<style>html {font-family: Arial;display: inline-block;margin: 0px auto;text-align: center;}h2 { font-size: 3.0rem; }p { font-size: 3.0rem; }.units { font-size: 1.2rem; }.ds-labels{font-size: 1.5rem;vertical-align:middle;padding-bottom: 15px;}</style>";
 const char CABECALHO_OUT[] ="</head><body>";
 const char TITULO_H2[] ="<h2>Monitoramento Solar</h2>";
-const char TENSAO_CORRENTE[] ="<p><i class=\"fas fa-solar-panel\" style=\"color:#059e8a;\"></i> <span class=\"ds-labels\">Tensão </span> <span id=\"\">12</span><sup class=\"units\">&deg;V</sup><span class=\"ds-labels\">Corrente </span> <span id=\"\">1000</span><sup class=\"units\">&deg;mA</sup></p>";
+const char TENSAO_CORRENTE[] ="<p><i class=\"fas fa-solar-panel\" style=\"color:#059e8a;\"></i> <span class=\"ds-labels\">Tensão </span> <span id=\"\">12</span><sup class=\"units\">V</sup><span class=\"ds-labels\">Corrente </span> <span id=\"\">1000</span><sup class=\"units\">mA</sup></p>";
 const char FINAL_PAGINA []="</body></html>";
 WiFiServer server(80);
 void setup() {
